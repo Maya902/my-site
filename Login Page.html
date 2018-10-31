@@ -1,0 +1,56 @@
+<html> 
+<head> 
+
+	<title> Login </title>
+	
+	<style>
+	body{ 
+		 background:url("https://webgradients.com/public/webgradients_png/047%20Fly%20High.png") center no-repeat;
+				background-size:cover;}
+	
+	 body{
+		padding-top: 200px;
+		}
+</style>
+</head> 
+<center>
+    
+
+<h2> Mr Taylor's Website Login </h2>
+	<body oncontextmenu = "return false";
+	
+	<div class = "body"></div>
+		<div class="grad"></div> 
+		<div class="header"> 
+			
+			<div> Please sign in: </div>
+		</div> 	
+		<br> 
+		<form name="login"> 
+		<div class="login"> 
+			<input type="text" placeholder="username" name="userid"><br> 
+			<input type="password" placeholder="password" name="pswrd"><br>
+			<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+		
+		</form>
+		
+		<script language = "javascript"> 
+		function check(form) 
+			{
+				if(form.userid.value == "MrTaylor" && form.pswrd.value == "12345")
+				     {
+						window.open('home page.html')
+						
+					 }
+
+				else 
+				{
+					alert("The user and password is not correct")
+					
+			    }
+			}
+			
+		</script> 
+</center>
+</html>
